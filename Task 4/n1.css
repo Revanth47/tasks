@@ -1,0 +1,24 @@
+#a1
+{
+	text-align:"center";
+	color: red;
+}
+#a2
+{
+	color: orange;
+	float: left;
+
+}
+
+#a3
+{
+
+	text-align: right;
+	float: left;
+	line-height: 20px;
+}
+#a4
+{
+	float: left;
+
+}

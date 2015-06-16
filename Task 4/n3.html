@@ -1,0 +1,44 @@
+<html>
+    <head><title>Task 4</title></head>
+    <body bgcolor="000044">
+        <h2 id="a1" align="center">NITT REGISTRATION FORM</h2><br><br>
+        <form id="a2" method="post" action="n2.php" enctype="multipart/form-data">
+        <div id="a3">
+            Roll No:<br>
+            Name:<br>
+            Department:<br>
+            Year Of Study:<br>
+            Email:<br>
+            Password:<br>
+            Profile Picture:<br>
+        </div>
+        <div id="a4">
+            <input type="text" name="roll_no" required/><br>
+            <input type="text" name="name" required/><br>
+            <select name='department' required>
+            	<option value="mech">Mech</option>
+            	<option value="comp">Comp</option>
+            	<option value="civil">Civil</option>
+            	<option value="prod">Prod</option>
+            	<option value="meta">Meta</option>
+            	<option value="chem">Chem</option>
+            	<option value="ece">ECE</option>
+            	<option value="eee">EEE</option>
+            	<option value="ice">ICE</option>
+            </select><br>
+	        
+	        <select name='year_of_study' required>
+	            <option value="I">I</option>
+	            <option value="II">II</option>
+	            <option value="III">III</option>
+	            <option value="IV">IV</option>
+	        </select><br>
+	        <input type="email" name="email" required/><br>
+	        <input type="password" name="password" required/><br>
+	        <input type="file" name="file" required/><br>
+	        <input type="submit" name="submit"/>
+        </div>    
+        </form>
+        <link rel="stylesheet" type="text/css" href="n1.css">
+    </body>
+</html>
